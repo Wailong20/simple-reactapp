@@ -11,7 +11,6 @@ const second = () => {
 
     return (
         <ScrollView style={styles.scrollView}>
-            <Text>My Phone Details</Text>
             <DataTable>
                 <DataTable.Header>
                     <DataTable.Title>Title</DataTable.Title>
@@ -74,7 +73,6 @@ const second = () => {
                 </DataTable.Row>
             </DataTable>
 
-
             <View style={styles.countContainer}>
                 <TouchableOpacity style={styles.button}
                     onPress={redirect}>
@@ -83,7 +81,6 @@ const second = () => {
                     </Text>
                 </TouchableOpacity>
             </View>
-
         </ScrollView >
     );
 }
