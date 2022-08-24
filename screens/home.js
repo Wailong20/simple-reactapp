@@ -1,16 +1,11 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { useNavigation } from '@react-navigation/core';
 
-
-
-
 const home = () => {
-
     const navigation = useNavigation();
     const redirect = () => {
         navigation.replace("DetailPage");
     }
-
     return (
         <View style={styles.container}>
             <View style={styles.countContainer}>
